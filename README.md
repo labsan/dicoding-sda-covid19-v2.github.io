@@ -1,6 +1,5 @@
-# p0-sda-covid19.github.io
 # Welcome to 2nd Project in my World! ^^
-# Re-design Web Layout Project p0-sda-covid19
+Re-design Web Layout Project p0-sda-covid19
 ---
  - Pure Native HTML & CSS
  - Design Web Layout with Flexbox
