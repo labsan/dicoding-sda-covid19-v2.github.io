@@ -4,4 +4,9 @@
     - Menampilkan menu yang diwakilkan dengan icon ketika lebar layar kurang dari 500px
     - Layout pada Asidebar memiliki posisi 'fixed'
     - Menambahkan kategori data kasus persebaran Covid-19 di Kabupaten Sidoarjo
+    - Kode CSS sudah disesuaikan dengan kebutuhan browser menggunakan Autoprefixer
+       - Prefixed by https://autoprefixer.github.io
+       - PostCSS: v7.0.29,
+       - Autoprefixer: v9.7.6
+       - Browsers: last 4 version
  - Demo project: https://labsan.github.io/dicoding-sda-covid19-v2.github.io/
