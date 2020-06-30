@@ -1,8 +1,7 @@
-# Welcome to 2nd Project in my World! ^^
-Re-design Web Layout Project p0-sda-covid19
----
- - Pure Native HTML & CSS
- - Design Web Layout with Flexbox
- - Position Navbar and Sidebar is Fixed
- - Add less javascript for navbar (toggle function) when screen < 500px
- - You can see this project: https://labsan.github.io/p1-sda-covid19.github.io/
+# dicoding-sda-covid19-v2.github.io
+ - Merupakan hasil belajar dari kelas "Belajar Dasar Pemrograman Web" melalui Dicoding
+ - Memiliki tampilan yang berbeda dengan project yang sebelumnya (Re-design), diantaranya:
+    - Menampilkan menu yang diwakilkan dengan icon ketika lebar layar kurang dari 500px
+    - Layout pada Asidebar memiliki posisi 'fixed'
+    - Menambahkan kategori data kasus persebaran Covid-19 di Kabupaten Sidoarjo
+ - Demo project: https://labsan.github.io/dicoding-sda-covid19-v2.github.io/
