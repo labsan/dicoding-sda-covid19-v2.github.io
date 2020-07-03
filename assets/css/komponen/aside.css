@@ -1,0 +1,55 @@
+aside {
+    display: block;
+    width: 25%;
+    background-color: transparent;
+}
+
+aside .side-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    background-color: transparent;
+}
+
+aside .side-content {
+    flex: auto;
+
+    margin-bottom: 20px;
+    padding: 10px;
+    /* background-color: #ffffff; */
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    color: #F8F8F8;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+}
+
+aside .side-content:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+}
+
+.side-content p {
+    padding: 10px 5px;
+}
+
+.nama-layanan {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.kontak-layanan {
+    font-size: 1.5em;
+}
+
+aside h1 {
+    padding: 10px 0;
+    font-size: 1.5em;
+}
+
+aside h2 {
+    font-size: 1.8em;
+    padding: 25px 10px;
+}

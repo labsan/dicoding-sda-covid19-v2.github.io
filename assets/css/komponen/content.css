@@ -1,0 +1,97 @@
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-wrapper {
+    width: 75%;
+    padding-top: 20px;
+    background-color: transparent;
+}
+
+.article-wrapper .article-content {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+}
+
+.article-content .heading {
+    width: 95%;
+    padding: 15px 0;
+    text-align: left;
+}
+
+.article-content .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 10px auto;
+    background-color: transparent;
+}
+
+.content-wrapper .box {
+    flex: auto;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+.content-wrapper .box-tabel {
+    flex: auto;
+    margin: 10px 20px 10px 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+.box .jml-kasus {
+    font-size: 3em;
+    font-weight: 400;
+    color: #f8f8f8;
+}
+
+.box .ket-kasus {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #f8f8f8;
+}
+
+.box .content-image-gejala {
+    display: block;
+    width: 60%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.box .p-deskripsi {
+    padding: 10px;
+    line-height: 25px;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.box .content-image-rs {
+    display: block;
+    width: 100%;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.box p {
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.article-content .sumber {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-style: italic;
+}
