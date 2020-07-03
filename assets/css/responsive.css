@@ -1,0 +1,211 @@
+@media (max-width: 768px) {
+    .banner-wrapper {
+        height: 300px;
+        background-size: cover;
+    }
+
+    .highlight-wrapper .highlight-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .highlight-flex .box {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .box .content-image-gejala {
+        width: 60%;
+        height: 150px;
+    }
+
+    .nama-layanan {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .kontak-layanan {
+        font-weight: normal;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .header-right .icon {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .header-right .menu {
+        display: none;
+    }
+
+    .banner-wrapper {
+        height: 200px;
+        background-size: cover;
+    }
+
+    .highlight-wrapper .highlight-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article-content .heading {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .highlight-flex .box {
+        width: 40%;
+        height: 150px;
+        margin: 0 5px 20px 5px;
+    }
+
+    .box h2 {
+        padding: 20px 0;
+        font-size: 2.5em;
+    }
+
+    .article-wrapper {
+        padding-top: unset;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .content-wrapper .box {
+        width: 95%;
+        margin: 0 auto 10px auto;
+    }
+
+    .box .content-image-gejala {
+        width: 40%;
+        height: 150px;
+    }
+
+    .article-content .sumber {
+        font-size: 14px;
+    }
+
+    .box-tabel {
+        width: 90%;
+        background-color: #f8f8f8;
+    }
+
+    table caption {
+        padding: 10px 5px;
+        font-size: 1.5em;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        border-bottom: 3px solid #34A853;
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    table td {
+        border-bottom: 1px solid #34A853;
+        display: block;
+        font-size: 1em;
+        text-align: right;
+        line-height: 1.5em;
+    }
+
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .article-wrapper,
+    aside {
+        width: 100%;
+    }
+
+    aside .side-wrapper {
+        margin-top: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    aside .side-content {
+        width: 30%;
+        margin: 10px 10px;
+    }
+
+    .nama-layanan {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .kontak-layanan {
+        font-weight: normal;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 375px) {
+    .banner-wrapper {
+        height: 180px;
+        background-size: cover;
+    }
+
+    .box-tabel {
+        width: 88%;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-left {
+        padding: 5px 0;
+    }
+
+    .header-left .logo {
+        height: 50px;
+    }
+
+    .banner-wrapper {
+        height: 150px;
+        background-size: cover;
+    }
+
+    .article-content .heading {
+        font-size: 14px;
+    }
+
+    .box-tabel {
+        width: 87%;
+    }
+
+    table caption {
+        font-size: 16px;
+    }
+
+    .article-content .sumber {
+        font-size: 12px;
+    }
+
+    aside .side-content {
+        width: 50%;
+    }
+
+    footer p {
+        line-height: 25px;
+    }
+}
