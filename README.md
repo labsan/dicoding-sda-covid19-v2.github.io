@@ -2,7 +2,6 @@
  - Merupakan hasil belajar dari kelas "Belajar Dasar Pemrograman Web" melalui Dicoding
  - Memiliki tampilan yang berbeda dengan project yang sebelumnya (Re-design), diantaranya:
     - Menampilkan menu yang diwakilkan dengan icon ketika lebar layar kurang dari 500px
-    - Layout pada Asidebar memiliki posisi 'fixed'
     - Menambahkan kategori data kasus persebaran Covid-19 di Kabupaten Sidoarjo
     - Kode CSS sudah disesuaikan dengan kebutuhan browser menggunakan Autoprefixer
        - Prefixed by https://autoprefixer.github.io
